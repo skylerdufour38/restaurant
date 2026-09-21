@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>App Store IPA Creator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="top-bar">
+        <div class="brand-wrap">
+          <div class="brand-mark">A</div>
+          <span>App Store</span>
+        </div>
+      </header>
+
+      <main class="content-grid">
+        <section class="editor-panel">
+          <div class="panel-header">
+            <h1>App Information</h1>
+          </div>
+
+          <div class="form-grid">
+            <label>
+              <span>App Name</span>
+              <input id="appName" type="text" value="Paste here" />
+            </label>
+
+            <label>
+              <span>Bundle ID</span>
+              <input id="bundleId" type="text" value="Paste here" />
+            </label>
+
+            <label>
+              <span>Version</span>
+              <input id="version" type="text" value="Paste here" />
+            </label>
+
+            <label>
+              <span>Platform</span>
+              <input id="platform" type="text" value="Paste here" />
+            </label>
+
+            <label>
+              <span>Minimum OS</span>
+              <input id="minimumOs" type="text" value="iOS Paste here" />
+            </label>
+
+            <label>
+              <span>IPA File</span>
+              <input id="ipaFile" type="text" value="Paste here" />
+            </label>
+
+            <label>
+              <span>File Size</span>
+              <input id="fileSize" type="text" value="Paste here" />
+            </label>
+
+            <label>
+              <span>App Bundle Path</span>
+              <input id="bundlePath" type="text" value="Paste here" />
+            </label>
+
+            <label>
+              <span>Archive Type</span>
+              <input id="archiveType" type="text" value="Paste here" />
+            </label>
+          </div>
+
+          <div class="button-row">
+            <button class="action primary" type="button">Install IPA</button>
+            <button class="action secondary" type="button">Download IPA</button>
+          </div>
+        </section>
+
+        <aside class="preview-panel">
+          <div class="app-preview-card">
+            <div class="app-icon">A</div>
+            <div class="meta-block">
+              <div id="previewName" class="app-title">Paste here</div>
+              <div id="previewVersion" class="app-subtitle">Version: Paste here</div>
+            </div>
+
+            <div class="details-list">
+              <div class="detail-item">
+                <span class="label">Bundle ID</span>
+                <span id="previewBundleId" class="value">Paste here</span>
+              </div>
+              <div class="detail-item">
+                <span class="label">Platform</span>
+                <span id="previewPlatform" class="value">Paste here</span>
+              </div>
+              <div class="detail-item">
+                <span class="label">Minimum OS</span>
+                <span id="previewMinimumOs" class="value">iOS Paste here</span>
+              </div>
+              <div class="detail-item">
+                <span class="label">IPA File</span>
+                <span id="previewIpaFile" class="value">Paste here</span>
+              </div>
+              <div class="detail-item">
+                <span class="label">File Size</span>
+                <span id="previewFileSize" class="value">Paste here</span>
+              </div>
+              <div class="detail-item">
+                <span class="label">App Bundle Path</span>
+                <span id="previewBundlePath" class="value">Paste here</span>
+              </div>
+              <div class="detail-item">
+                <span class="label">Archive Type</span>
+                <span id="previewArchiveType" class="value">Paste here</span>
+              </div>
+            </div>
+
+            <div class="preview-actions">
+              <button class="action primary" type="button">Install IPA</button>
+              <button class="action secondary" type="button">Download IPA</button>
+            </div>
+          </div>
+        </aside>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
