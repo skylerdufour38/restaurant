@@ -6,7 +6,7 @@ GitHub Pages + GitHub Codespaces-ready web app for creating an App Store IPA inf
 
 GitHub Pages:
 
-https://YOUR-USERNAME.github.io/IPA-Creator-Web-App/
+https://skylerdufour38.github.io/IPA-Creator-Web-App/
 
 ## Features
 
